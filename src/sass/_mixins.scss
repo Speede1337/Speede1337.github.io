@@ -1,0 +1,12 @@
+@mixin btn_hover {
+	&:hover {
+		background-image: none;
+		background-color: $text-color-lightBlue;
+	}
+}
+
+@mixin off_underline {
+	&:hover {
+		text-decoration: none;
+	}
+}
