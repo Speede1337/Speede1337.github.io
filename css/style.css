@@ -1,0 +1,209 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.empty {
+  height: 50px;
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  height: 50;
+  background-color: #212121;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;  
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.menu .menu_link {
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.menu .menu_item {
+  border-right: 2px dotted #000;
+  padding-right: 28px;
+}
+
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+/* Не забувати про блочність елементів, бо маржін не працює якщо елемент є строчний */
+.subheader .subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+.subheader .subheader_call {
+  margin-top: 19px;
+  color: #FFF;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.subheader .subheader_phone {
+  margin-top: 8px;
+  display: block;
+  color: #FFF;
+  text-align: right;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 12px;
+}
+
+.subheader .subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  color: #FFF;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.promo {
+  min-height: 800px;
+  background: url("../img/uber_bg.jpg") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+.promo .promo_subheader {
+  color: #FFF;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+.promo .promo_descr {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 23px;
+}
+
+.promo .promo_btn {
+  margin: 118px auto 0 auto;
+  display: block;
+  width: 259px;
+  height: 63px;
+  border-radius: 4px;
+  border: none;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.12) inset;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.advantages {
+  padding: 70px 0 64px;
+}
+
+.advantages .advantages_label {
+  color: #FFF;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #000;
+  padding: 5px;
+  width: 113px;
+}
+
+.advantages .advantages_reasons {
+  margin-top: 33px;
+  color: #222;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages .advantages_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 175px;
+}
+
+.advantages .advantages_wrapper .advantages_round {
+  min-width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 115px;
+  height: 115px;
+  background-color: #1EACC7;
+  border-radius: 100%;
+}
+
+.advantages .advantages_wrapper .advantages_discr {
+  margin-left: 25px;
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+
+.advantages .advantages_wrapper .advantages_discr span {
+  color: #1EACC7;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+}
